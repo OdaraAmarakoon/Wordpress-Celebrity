@@ -36,9 +36,6 @@
 							</div>
 						</nav>
 					</div>
-					<?php if ($link = get_field('schedule_link', 'option')) : ?>
-						<a href="<?php echo $link['url']; ?>" class="theme-btn call-link"><?php echo $link['title']; ?></a>
-					<?php endif; ?>
 				</div>
 
 				<div class="logo-wrapper">

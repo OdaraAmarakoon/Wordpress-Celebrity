@@ -189,6 +189,26 @@
             "delay": 0
         },
         {
+            "key": "field_649ac6501b05d",
+            "label": "Service btn",
+            "name": "service_btn",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
             "key": "field_649973ceb11e8",
             "label": "Left image",
             "name": "left_image_service",
@@ -282,8 +302,8 @@
         },
         {
             "key": "field_64746daaf9dbf",
-            "label": "Title",
-            "name": "testimonials_title",
+            "label": "Testimonials content",
+            "name": "testimonials_content",
             "aria-label": "",
             "type": "wysiwyg",
             "instructions": "",
@@ -302,10 +322,10 @@
         },
         {
             "key": "field_64746d8bf9dbc",
-            "label": "Testimonials",
-            "name": "testimonials",
+            "label": "Testimonials image",
+            "name": "",
             "aria-label": "",
-            "type": "repeater",
+            "type": "image",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -314,61 +334,20 @@
                 "class": "",
                 "id": ""
             },
-            "layout": "table",
-            "pagination": 0,
-            "min": 0,
-            "max": 0,
-            "collapsed": "",
-            "button_label": "Add Row",
-            "rows_per_page": 20,
-            "sub_fields": [
-                {
-                    "key": "field_64746d8ff9dbd",
-                    "label": "Name",
-                    "name": "name",
-                    "aria-label": "",
-                    "type": "text",
-                    "instructions": "",
-                    "required": 1,
-                    "conditional_logic": 0,
-                    "wrapper": {
-                        "width": "",
-                        "class": "",
-                        "id": ""
-                    },
-                    "default_value": "",
-                    "maxlength": "",
-                    "placeholder": "",
-                    "prepend": "",
-                    "append": "",
-                    "parent_repeater": "field_64746d8bf9dbc"
-                },
-                {
-                    "key": "field_64746d96f9dbe",
-                    "label": "Testimonial",
-                    "name": "testimonial",
-                    "aria-label": "",
-                    "type": "textarea",
-                    "instructions": "",
-                    "required": 1,
-                    "conditional_logic": 0,
-                    "wrapper": {
-                        "width": "",
-                        "class": "",
-                        "id": ""
-                    },
-                    "default_value": "",
-                    "maxlength": "",
-                    "rows": "",
-                    "placeholder": "",
-                    "new_lines": "",
-                    "parent_repeater": "field_64746d8bf9dbc"
-                }
-            ]
+            "return_format": "id",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "",
+            "preview_size": "medium"
         },
         {
             "key": "field_64747e58e3bbd",
-            "label": "Contact Section",
+            "label": "Cosmetic Section",
             "name": "",
             "aria-label": "",
             "type": "tab",
@@ -384,9 +363,54 @@
             "endpoint": 0
         },
         {
+            "key": "field_64747e9ed01ff",
+            "label": "Background Image",
+            "name": "contact_background_image",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "id",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "",
+            "preview_size": "medium"
+        },
+        {
+            "key": "field_649a99e62efad",
+            "label": "Circle text contact",
+            "name": "circle_text_contact",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
             "key": "field_64747e71e3bbe",
-            "label": "Content",
-            "name": "contact_content",
+            "label": "Cosmetic content",
+            "name": "cosmetic_content",
             "aria-label": "",
             "type": "wysiwyg",
             "instructions": "",
@@ -422,31 +446,6 @@
             "placeholder": "",
             "prepend": "",
             "append": ""
-        },
-        {
-            "key": "field_64747e9ed01ff",
-            "label": "Background Image",
-            "name": "contact_background_image",
-            "aria-label": "",
-            "type": "image",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "return_format": "id",
-            "library": "all",
-            "min_width": "",
-            "min_height": "",
-            "min_size": "",
-            "max_width": "",
-            "max_height": "",
-            "max_size": "",
-            "mime_types": "",
-            "preview_size": "medium"
         },
         {
             "key": "field_64746dbcf9dc0",
@@ -598,5 +597,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1687779481
+    "modified": 1687864959
 }
