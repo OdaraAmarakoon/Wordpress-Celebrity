@@ -189,26 +189,6 @@
             "delay": 0
         },
         {
-            "key": "field_649ac6501b05d",
-            "label": "Service btn",
-            "name": "service_btn",
-            "aria-label": "",
-            "type": "text",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "maxlength": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": ""
-        },
-        {
             "key": "field_649973ceb11e8",
             "label": "Left image",
             "name": "left_image_service",
@@ -284,6 +264,26 @@
             "preview_size": "medium"
         },
         {
+            "key": "field_649ac6501b05d",
+            "label": "Service btn",
+            "name": "service_btn",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
             "key": "field_64746d26f9dbb",
             "label": "Testimonials Section",
             "name": "",
@@ -321,9 +321,9 @@
             "delay": 0
         },
         {
-            "key": "field_64746d8bf9dbc",
-            "label": "Testimonials image",
-            "name": "",
+            "key": "field_649bce39bfb19",
+            "label": "Quotation mark1",
+            "name": "quotation_mark1",
             "aria-label": "",
             "type": "image",
             "instructions": "",
@@ -346,8 +346,58 @@
             "preview_size": "medium"
         },
         {
-            "key": "field_64747e58e3bbd",
-            "label": "Cosmetic Section",
+            "key": "field_649bce63bfb1a",
+            "label": "Quotation mark2",
+            "name": "quotation_mark2",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "id",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "",
+            "preview_size": "medium"
+        },
+        {
+            "key": "field_64746d8bf9dbc",
+            "label": "Testimonials image",
+            "name": "testimonials_img",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "id",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "",
+            "preview_size": "medium"
+        },
+        {
+            "key": "field_649bbdd63c9b5",
+            "label": "Cosmetic section",
             "name": "",
             "aria-label": "",
             "type": "tab",
@@ -359,13 +409,33 @@
                 "class": "",
                 "id": ""
             },
-            "placement": "left",
+            "placement": "top",
             "endpoint": 0
         },
         {
-            "key": "field_64747e9ed01ff",
-            "label": "Background Image",
-            "name": "contact_background_image",
+            "key": "field_64747e71e3bbe",
+            "label": "Cosmetic content",
+            "name": "cosmetic_content",
+            "aria-label": "",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_649bbe1a3c9b7",
+            "label": "Cosmetic background",
+            "name": "cosmetic_background",
             "aria-label": "",
             "type": "image",
             "instructions": "",
@@ -408,9 +478,46 @@
             "append": ""
         },
         {
-            "key": "field_64747e71e3bbe",
-            "label": "Cosmetic content",
-            "name": "cosmetic_content",
+            "key": "field_64747e8ae3bbf",
+            "label": "cosmetic btn",
+            "name": "cosmetic_button",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_649b800781d3c",
+            "label": "Appointment section",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_649b804b81d3d",
+            "label": "Appointment content",
+            "name": "appointment_content",
             "aria-label": "",
             "type": "wysiwyg",
             "instructions": "",
@@ -428,9 +535,34 @@
             "delay": 0
         },
         {
-            "key": "field_64747e8ae3bbf",
-            "label": "Button Text",
-            "name": "contact_button_text",
+            "key": "field_649b808181d3e",
+            "label": "Appiontment image",
+            "name": "appiontment_image",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "id",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "",
+            "preview_size": "medium"
+        },
+        {
+            "key": "field_649b80d081d3f",
+            "label": "Appointment btn",
+            "name": "appointment_btn",
             "aria-label": "",
             "type": "text",
             "instructions": "",
@@ -575,6 +707,26 @@
                     "parent_repeater": "field_64746dd8f9dc2"
                 }
             ]
+        },
+        {
+            "key": "field_649ba1da3fe14",
+            "label": "sec2 btn",
+            "name": "sec2_btn",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
         }
     ],
     "location": [
@@ -597,5 +749,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1687864959
+    "modified": 1687944894
 }

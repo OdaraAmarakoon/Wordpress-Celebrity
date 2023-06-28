@@ -2,7 +2,7 @@
 <?php get_header();
 ?>
 
-
+<!-- Section01 -banner section -->
 <section class="banner-section" id="contact">
 <?php getImage(get_field('banner_background_image'), 'full-image bg'); ?>   
     <div class="container" id="schedule">
@@ -17,6 +17,7 @@
     </div>
 </section>        
 
+<!-- Section02 welcome section -->
 <?php if (get_field('welcome_to_content')) : ?>
     <section class="section-welcome-to" id="welcome">       
         <div class="container">
@@ -33,118 +34,89 @@
     </section>
 <?php endif; ?>
 
-<?php if (get_field('welcome_to_content')) : ?>
-    
-<?php endif; ?>
-
-
-services_content
-
-<!-- section 03 -->
+<!-- section03 services section -->
 <?php if (get_field('services_content')) : ?>
 <section class="section-services">
     <div class="container">
         <div class="content-wrapper">
         <?php the_field('services_content'); ?>
         </div>        
-        <div class="grid">
-            <div class="column-grid">
-                <div class="column-image1 col-image">
-                <?php getImage(get_field('left_image_service'),); ?>                
-                </div>
-                <div class="sec3-circle">
-                    <p>invisalign</p>
-                </div>
+        <div class="img-section">            
+            <div class="column-image1 col-image">
+                <?php getImage(get_field('left_image_service'),); ?>  
+                <div class="sec3-circle"><?php the_field('packages_title'); ?></div>              
+            </div> 
+            <div class="column-image2 col-image">
+                <?php getImage(get_field('middle_image_service'),); ?>  
+                <div class="sec3-circle"><?php the_field('packages_title'); ?></div>              
             </div>
-            <div class="column-grid">
-                <div class="column-image2 col-image">
-                <?php getImage(get_field('middle_image_service'),); ?>                        
-                </div>
-                <div class="sec3-circle">
-                    <p>invisalign</p>
-                </div>
-            </div>
-            <div class="column-grid">
-                <div class="column-image3 col-image">
-                    <?php getImage(get_field('right_image_service'),); ?>                        
-                </div>
-                <div class="sec3-circle">
-                    <p>invisalign</p>
-                </div>
-           </div>
+            <div class="column-image3 col-image">
+                <?php getImage(get_field('right_image_service'),); ?>  
+                <div class="sec3-circle"><?php the_field('packages_title'); ?></div>              
+            </div>              
         </div>
-            <div class="service-btn-class">
-                <a href="#" class="main-btn service-btn">VIEW ALL SERVICES</a>
-            </div>
+        <?php if (get_field('service_btn')) : ?>
+            <a href="#" class="theme-btn service-btn">
+                <?php the_field('service_btn'); ?>
+            </a>
+        <?php endif; ?>
+            
         </div>
     </section>
-<?php endif; ?>       
+<?php endif; ?> 
 
-<?php if (get_field('contact_content')) : ?>
-    <section class="contact-section">
-        <?php getImage(get_field('contact_background_image'), 'full-image'); ?>
-        <div class="container">
-            <div class="content-wrapper">
-                <?php the_field('contact_content'); ?>
-                <?php if (get_field('contact_button_text')) : ?>
-                    <a href="#" class="theme-btn">
-                        <?php the_field('contact_button_text'); ?>
-                    </a>
-                <?php endif; ?>
-            </div>
-        </div>
-    </section>
-<?php endif; ?>
-
-<?php if (have_rows('testimonials')) : ?>
-    <section class="testimonials-section" id="what-they-say">
-        <div class="container">
-            <?php if (get_field('testimonials_title')) : ?>
-                <div class="content-wrapper"><?php the_field('testimonials_title'); ?></div>
-            <?php endif; ?>
-            <div class="swiper" id="testimonialsSwiper">
-                <div class="swiper-wrapper">
-                    <?php while (have_rows('testimonials')) : the_row(); ?>
-                        <div class="swiper-slide">
-                            <div class="item">
-                                <p><?php the_sub_field('testimonial'); ?></p>
-                                <h5><?php the_sub_field('name'); ?></h5>
-                            </div>
-                        </div>
-                    <?php endwhile; ?>
-                </div>
-                <div class="swiper-nav">
-                    <div class="swiper-btn testimonials-prev"><i class="fa-solid fa-chevron-left"></i></div>
-                    <div class="swiper-btn testimonials-next"><i class="fa-solid fa-chevron-right"></i></div>
-                </div>
-            </div>
-        </div>
-    </section>
-<?php endif; ?>
-
-<?php if (have_rows('areas')) : ?>
-    <section class="areas-section">
-        <div class="container">
-            <?php if (get_field('areas_title')) : ?>
-                <div class="content-wrapper"><?php the_field('areas_title'); ?></div>
-            <?php endif; ?>
+<!-- Section05 Testimonials  -->
+<?php if (get_field('testimonials_content')) : ?>
+    <section class="testimonials-section">
+    <div class="container">
             <div class="row">
-                <?php while (have_rows('areas')) : the_row(); ?>
-                    <div class="col-sm-12 col-md-4 col-lg-2">
-                        <div class="item">
-                            <div class="image">
-                                <?php getImage(get_sub_field('image'), 'full-image'); ?>
-                            </div>
-                            <h3><?php the_sub_field('title'); ?></h3>
-                            <?php if (get_sub_field('link')) : ?>
-                                <a href="<?php the_field('link'); ?>" target="_blank" class="full-link"></a>
-                            <?php endif; ?>
-                        </div>
+                <div class="col-sm-12 col-lg-6 ">
+                    <div class="square">
+                        <div class="circle-shape"><?php the_field('circle_text_contact'); ?></div> 
+                        <?php getImage(get_field('quotation_mark1'), 'quot-left'); ?>
+                        <?php getImage(get_field('quotation_mark2'), 'quot-right'); ?>
+                        <?php if (get_field('testimonials_content')) : ?>
+                            <div class="content-wrapper"><?php the_field('testimonials_content'); ?></div>
+                        <?php endif; ?>                          
                     </div>
-                <?php endwhile; ?>
+                </div>
+                <div class="col-sm-12 col-lg-6 ">
+                <?php getImage(get_field('testimonials_img'), 'quot-right'); ?>
+
+                </div>
+            </div                      
+        </div>
+    </section>
+<?php endif; ?>
+
+<!-- Section06 Cosmetic Section  -->
+
+<?php if (get_field('cosmetic_content')) : ?>
+    <section class="cosmetic-section">
+        <?php getImage(get_field('cosmetic_background'), 'full-image'); ?>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="square">
+                    <div class="circle-shape"><?php the_field('circle_text_contact'); ?></div> 
+                    <div class="content-wrapper">
+                        <?php the_field('cosmetic_content'); ?>
+                        <?php if (get_field('cosmetic_button')) : ?>
+                            <a href="#" class="theme-btn">
+                                <?php the_field('cosmetic_button'); ?>
+                            </a>
+                        <?php endif; ?>
+                    </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 <?php endif; ?>
+
+
+
+
+
 
 <?php get_footer(); ?>
