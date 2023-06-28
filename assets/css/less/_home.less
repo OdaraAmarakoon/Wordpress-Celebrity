@@ -149,8 +149,8 @@ section.section-welcome-to {
             }
             .right-img{
                 position: absolute;               
-                right: 0;
-                top: 0;
+                right: 0px;
+                top: 0px;
             }
 
             .boy-circle {
@@ -280,12 +280,12 @@ section.testimonials-section{
                 position: relative;
                 width: 569px;
                 height: 598px;
-                top: 113px;
-                background-color:  #FFFFFF;
+                background-color: #FFF;
                 padding: 68px 21px 64px 13px;
                 right: 0;
                 border-radius: 50px 0;
                 text-align: center;
+                margin-left: 111px;
 
                 h3{
                     font-weight: 700;
@@ -315,14 +315,15 @@ section.testimonials-section{
                     background-color: #ED9AA2;
                     position: absolute;
                     color: #fff;
-                    top: 64px;
-                    left: 550px;
+                    top: 200px;
+                    left: 458px;
                     z-index: 9;
                     text-align: center;
                     padding: 72px 26px 40px 25px;
                     font-family: 'Noto Sans',sans-serif;
                     font-weight: 700;
                     text-transform: capitalize;
+                }
                 }
             }           
         }
@@ -337,7 +338,7 @@ section.testimonials-section{
             border-radius: 0 0 50px 0;
     }
   } 
-}
+
 
 
 
@@ -414,34 +415,49 @@ section.cosmetic-section{
         }        
     }
 }
-section.areas-section {
-    text-align: center;
+section.appoinment-section {
+    background: #FFEAEC;
+    position: relative;
+    padding: 0 0 106px 0;
+    overflow: hidden;
+    margin: 0;
+    z-index: -5;
 
-    .content-wrapper {
-        margin-bottom: 40px;
+    .content-wrapper{
+        padding: 0 290px;
+        text-align: center;
+    
 
-        h2 {
-            margin-bottom: 10px;
+        h3{
+            font-weight: 700;
+            font-size: 36px;
+            margin-bottom: 20px 0;
+            text-transform: capitalize;
+            padding: 20px 0 20px;
+            color: #ED9AA2;
         }
     }
 
-    .row {
-        gap: 50px 0;
+    .ring2{
+    border-radius: 50%;
+    border: 25px solid rgb(255, 255, 255);
+    width: 313px;
+    height: 313px;
+    position: absolute;
+    top: -101px;
+    left: 64px;
+    z-index: -1;
     }
 
-    .item {
-        position: relative;
-
-        .image {
-            position: relative;
-            padding-top: 120%;
-            margin-bottom: 15px;
-            border-radius: 50%;
-        }
-
-        h3 {
-            font-size: 30px;
-            color: @secondary-color;
-        }
+    .ring3{
+        border-radius: 50%;
+        border: 25px solid #f9b9bf;
+        width: 240px;
+        height: 240px;
+        position: absolute;
+        right: 100px;
+        bottom: -70px;
     }
+
+
 }

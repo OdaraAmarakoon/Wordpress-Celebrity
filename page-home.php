@@ -65,7 +65,7 @@
     </section>
 <?php endif; ?> 
 
-<!-- Section05 Testimonials  -->
+<!-- Section04 Testimonials  -->
 <?php if (get_field('testimonials_content')) : ?>
     <section class="testimonials-section">
     <div class="container">
@@ -89,7 +89,7 @@
     </section>
 <?php endif; ?>
 
-<!-- Section06 Cosmetic Section  -->
+<!-- Section05 Cosmetic Section  -->
 
 <?php if (get_field('cosmetic_content')) : ?>
     <section class="cosmetic-section">
@@ -114,6 +114,35 @@
     </section>
 <?php endif; ?>
 
+<!-- Section07 Appointment section -->
+<?php if (get_field('appointment_content')) : ?>
+    <section class="appoinment-section">
+        <?php getImage(get_field('appiontment_image'),); ?>
+        <div class="ring2"></div>
+        <div class="ring3"></div>
+        <div class="container">
+            <div class="content-wrapper">
+                <?php the_field('appointment_content'); ?>
+                <?php if (get_field('appointment_btn')) : ?>
+                    <a href="#" class="theme-btn">
+                        <?php the_field('appointment_btn'); ?>
+                    </a>
+                <?php endif; ?>
+            </div>
+        </div>
+    </section>
+<?php endif; ?>
+
+<!-- Section08 Team section -->
+<?php if (get_field('appointment_content')) : ?>
+    
+<?php endif; ?>
+
+
+<!-- Section09 TContact section -->
+<?php if (get_field('appointment_content')) : ?>
+    
+<?php endif; ?>
 
 
 
