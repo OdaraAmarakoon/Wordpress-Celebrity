@@ -297,52 +297,9 @@
             "endpoint": 0
         },
         {
-            "key": "field_6413e1e44ee83",
-            "label": "Google Map",
-            "name": "google_map",
-            "aria-label": "",
-            "type": "textarea",
-            "instructions": "Google map embedded code",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "maxlength": "",
-            "rows": "",
-            "placeholder": "",
-            "new_lines": ""
-        },
-        {
-            "key": "field_636ca313276f7",
-            "label": "Schedule Form",
-            "name": "schedule_form",
-            "aria-label": "",
-            "type": "post_object",
-            "instructions": "Enter menu name here",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "post_type": [
-                "forminator_forms"
-            ],
-            "taxonomy": "",
-            "return_format": "id",
-            "multiple": 0,
-            "allow_null": 0,
-            "ui": 1
-        },
-        {
-            "key": "field_6413dd4a82371",
-            "label": "Contact Details Title",
-            "name": "footer_contact_details_title",
+            "key": "field_649db65a7b79c",
+            "label": "quick links heading",
+            "name": "quick_links_heading",
             "aria-label": "",
             "type": "text",
             "instructions": "",
@@ -360,9 +317,25 @@
             "append": ""
         },
         {
-            "key": "field_6413dd5e82372",
-            "label": "Contact Form Title",
-            "name": "footer_contact_title",
+            "key": "field_649db5767b79a",
+            "label": "page column",
+            "name": "page_column",
+            "aria-label": "",
+            "type": "link",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array"
+        },
+        {
+            "key": "field_649db6a17b79d",
+            "label": "date time topic",
+            "name": "date_time_topic",
             "aria-label": "",
             "type": "text",
             "instructions": "",
@@ -380,11 +353,11 @@
             "append": ""
         },
         {
-            "key": "field_641d68ecd4090",
-            "label": "Background Image",
-            "name": "footer_background_image",
+            "key": "field_649db62d7b79b",
+            "label": "date time column",
+            "name": "date_time_column",
             "aria-label": "",
-            "type": "image",
+            "type": "repeater",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -393,16 +366,74 @@
                 "class": "",
                 "id": ""
             },
-            "return_format": "id",
-            "library": "all",
-            "min_width": "",
-            "min_height": "",
-            "min_size": "",
-            "max_width": "",
-            "max_height": "",
-            "max_size": "",
-            "mime_types": "",
-            "preview_size": "medium"
+            "layout": "table",
+            "pagination": 0,
+            "min": 0,
+            "max": 0,
+            "collapsed": "",
+            "button_label": "Add Row",
+            "rows_per_page": 20,
+            "sub_fields": []
+        },
+        {
+            "key": "field_649db6fb7b79e",
+            "label": "address topic",
+            "name": "address_topic",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_649db7107b79f",
+            "label": "address 1",
+            "name": "address_1",
+            "aria-label": "",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_649db74f7b7a0",
+            "label": "address 2",
+            "name": "address_2",
+            "aria-label": "",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
         },
         {
             "key": "field_61ec3af16b0ae",
@@ -443,5 +474,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1679659386
+    "modified": 1688057935
 }
