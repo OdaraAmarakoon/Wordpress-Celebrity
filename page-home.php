@@ -30,7 +30,12 @@
                 <div class="girl-ring"></div>
                 <div class="right-img"><?php getImage(get_field('right_image'),); ?></div>
                 <div class="boy-circle"></div>                   
-            </div>            
+            </div> 
+            <?php if (get_field('sec2_btn')) : ?>
+            <a href="#" class="theme-btn service-btn">
+                <?php the_field('sec2_btn'); ?>
+            </a>
+        <?php endif; ?>           
         </div>
     </section>
 <?php endif; ?>
@@ -169,7 +174,8 @@
                     <div class="square">
                         <div class="circle-shape"><?php the_field('contact_circle_text'); ?></div> 
                         <div class="content-wrapper">
-                            <?php if ($formID = get_field('banner_form')) : ?>                
+                        <?php the_field('form_text'); ?></div>
+                            <?php if ($formID = get_field('form')) : ?>                
                             <div class="contactus-form">
                                 <?php if (get_field('form')) : ?>
                                 <div class="content-wrapper"><?php the_field('form'); ?></div>
@@ -187,7 +193,7 @@
     </section>
 <?php endif; ?>
 
-<!-- Section08 Galary section -->
+<!-- Section0 Galary section -->
 <?php if (get_field('garaly_text')) : ?>
     <section class="Galary-section">
         <div class="container">
@@ -199,8 +205,11 @@
                     <?php getImage(get_field('garaly_img2')); ?>
                 </div>
                 <div class="instagram-box">
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    
+                
+                        <a href="#"></a>
+                        <i class="fab fa-instagram"></i>
+                        <p><?php the_field('instagram_link'); ?></p>
+                        
                 </div>
                 <div class="galary-box">
                     <?php getImage(get_field('garaly_img3')); ?>
@@ -212,11 +221,6 @@
         </div>
     </section>
 <?php endif; ?>
-
-
-
-
-
 
 
 <?php get_footer(); ?>

@@ -281,7 +281,7 @@
             "label": "Sub heading 1",
             "name": "sub_heading_1",
             "aria-label": "",
-            "type": "text",
+            "type": "wysiwyg",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -291,10 +291,10 @@
                 "id": ""
             },
             "default_value": "",
-            "maxlength": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": ""
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
         },
         {
             "key": "field_649db5767b79a",
@@ -317,7 +317,7 @@
             "label": "Sub heading 2",
             "name": "sub_heading_2",
             "aria-label": "",
-            "type": "text",
+            "type": "wysiwyg",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -327,10 +327,10 @@
                 "id": ""
             },
             "default_value": "",
-            "maxlength": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": ""
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
         },
         {
             "key": "field_649db62d7b79b",
@@ -401,9 +401,9 @@
         {
             "key": "field_649db6fb7b79e",
             "label": "Sub heading 3",
-            "name": "address_topic",
+            "name": "sub_heading_3",
             "aria-label": "",
-            "type": "text",
+            "type": "wysiwyg",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -413,10 +413,10 @@
                 "id": ""
             },
             "default_value": "",
-            "maxlength": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": ""
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
         },
         {
             "key": "field_649db7107b79f",
@@ -459,12 +459,12 @@
             "delay": 0
         },
         {
-            "key": "field_61ec3af16b0ae",
-            "label": "Copyrights Text",
-            "name": "copyrights_text",
+            "key": "field_649e040de19ea",
+            "label": "Sub heading 4",
+            "name": "sub_heading_4",
             "aria-label": "",
-            "type": "text",
-            "instructions": "[year] - Current Year",
+            "type": "wysiwyg",
+            "instructions": "",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
@@ -473,18 +473,18 @@
                 "id": ""
             },
             "default_value": "",
-            "maxlength": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": ""
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
         },
         {
-            "key": "field_649e040de19ea",
-            "label": "Sub heading 4",
-            "name": "sub_heading_4",
+            "key": "field_61ec3af16b0ae",
+            "label": "Copyrights Text",
+            "name": "copyrights_text",
             "aria-label": "",
             "type": "text",
-            "instructions": "",
+            "instructions": "[year] - Current Year",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
@@ -517,5 +517,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1688081532
+    "modified": 1688099946
 }

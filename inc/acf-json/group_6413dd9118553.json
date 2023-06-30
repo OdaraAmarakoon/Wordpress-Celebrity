@@ -102,6 +102,26 @@
             "delay": 0
         },
         {
+            "key": "field_649e905a03de8",
+            "label": "sec2 btn",
+            "name": "sec2_btn",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
             "key": "field_64995768a7c50",
             "label": "Left image",
             "name": "left_image",
@@ -880,7 +900,7 @@
             "label": "instagram link",
             "name": "instagram_link",
             "aria-label": "",
-            "type": "link",
+            "type": "text",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -889,7 +909,11 @@
                 "class": "",
                 "id": ""
             },
-            "return_format": "url"
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
         },
         {
             "key": "field_649d528f76589",
@@ -962,5 +986,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1688074508
+    "modified": 1688114562
 }
