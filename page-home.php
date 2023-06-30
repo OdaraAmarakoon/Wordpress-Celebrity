@@ -192,20 +192,21 @@
     <section class="Galary-section">
         <div class="container">
             <div class="galary-grid">
-                <div class="full-image-parent">
-                    <?php getImage(get_field('garaly_img1'), 'full-image bg'); ?>
+                <div class="galary-box">
+                    <?php getImage(get_field('garaly_img1')); ?>
                 </div>
-                <div class="full-image-parent">
-                    <?php getImage(get_field('garaly_img2'), 'full-image bg'); ?>
+                <div class="galary-box">
+                    <?php getImage(get_field('garaly_img2')); ?>
                 </div>
                 <div class="instagram-box">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
                     
                 </div>
-                <div class="full-image-parent">
-                    <?php getImage(get_field('garaly_img3'), 'full-image bg'); ?>
+                <div class="galary-box">
+                    <?php getImage(get_field('garaly_img3')); ?>
                 </div>
-                <div class="full-image-parent">
-                    <?php getImage(get_field('garaly_img4'), 'full-image bg'); ?>
+                <div class="galary-box">
+                    <?php getImage(get_field('garaly_img4')); ?>
                 </div>
             </div>
         </div>

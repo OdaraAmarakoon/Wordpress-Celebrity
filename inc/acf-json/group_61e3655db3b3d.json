@@ -200,49 +200,9 @@
             "endpoint": 0
         },
         {
-            "key": "field_61e36e6271d49",
-            "label": "Facebook",
-            "name": "facebook",
-            "aria-label": "",
-            "type": "text",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": "",
-            "maxlength": ""
-        },
-        {
             "key": "field_61e36e6a71d4a",
             "label": "Twitter",
             "name": "twitter",
-            "aria-label": "",
-            "type": "text",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": "",
-            "maxlength": ""
-        },
-        {
-            "key": "field_61e36e6f71d4b",
-            "label": "Instagram",
-            "name": "instagram",
             "aria-label": "",
             "type": "text",
             "instructions": "",
@@ -280,6 +240,26 @@
             "maxlength": ""
         },
         {
+            "key": "field_61e36e6271d49",
+            "label": "Facebook",
+            "name": "facebook",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
             "key": "field_61ec3acc6b0ac",
             "label": "Footer",
             "name": "",
@@ -298,8 +278,8 @@
         },
         {
             "key": "field_649db65a7b79c",
-            "label": "quick links heading",
-            "name": "quick_links_heading",
+            "label": "Sub heading 1",
+            "name": "sub_heading_1",
             "aria-label": "",
             "type": "text",
             "instructions": "",
@@ -334,8 +314,8 @@
         },
         {
             "key": "field_649db6a17b79d",
-            "label": "date time topic",
-            "name": "date_time_topic",
+            "label": "Sub heading 2",
+            "name": "sub_heading_2",
             "aria-label": "",
             "type": "text",
             "instructions": "",
@@ -373,11 +353,54 @@
             "collapsed": "",
             "button_label": "Add Row",
             "rows_per_page": 20,
-            "sub_fields": []
+            "sub_fields": [
+                {
+                    "key": "field_649e1222dc572",
+                    "label": "day",
+                    "name": "day",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_649db62d7b79b"
+                },
+                {
+                    "key": "field_649e124edc573",
+                    "label": "time",
+                    "name": "time",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_649db62d7b79b"
+                }
+            ]
         },
         {
             "key": "field_649db6fb7b79e",
-            "label": "address topic",
+            "label": "Sub heading 3",
             "name": "address_topic",
             "aria-label": "",
             "type": "text",
@@ -450,10 +473,30 @@
                 "id": ""
             },
             "default_value": "",
+            "maxlength": "",
             "placeholder": "",
             "prepend": "",
-            "append": "",
-            "maxlength": ""
+            "append": ""
+        },
+        {
+            "key": "field_649e040de19ea",
+            "label": "Sub heading 4",
+            "name": "sub_heading_4",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
         }
     ],
     "location": [
@@ -474,5 +517,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1688057935
+    "modified": 1688081532
 }
